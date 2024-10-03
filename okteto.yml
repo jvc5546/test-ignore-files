@@ -1,4 +1,6 @@
 deploy:
+  commands:
+    - cat hello-world1/test.txt
   compose: docker-compose.yml
 
 dev:
